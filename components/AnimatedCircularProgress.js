@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, StyleSheet, Animated, ViewPropTypes, Easing } from 'react-native';
+import { View, StyleSheet, Animated, Easing } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 // compatibility for react-native versions < 0.44
 const ViewPropTypesStyle = ViewPropTypes ? ViewPropTypes.style : View.propTypes.style;

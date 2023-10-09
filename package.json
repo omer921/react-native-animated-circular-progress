@@ -27,6 +27,7 @@
     "homepage": "https://github.com/hinodi/react-native-animated-circular-progress#readme",
     "peerDependencies": {
         "react-native": "*",
-        "prop-types": "*"
+        "prop-types": "*",
+        "deprecated-react-native-prop-types": "*"
     }
 }
